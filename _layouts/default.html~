@@ -32,7 +32,7 @@
                 </tr>
 
                 <tr>
-                  <td style="width: 659.140625px;" colspan="2">&nbsp;
+                  <td style="width: 700px;" colspan="2">&nbsp;
                     <h2 id="project_tagline">{{ site.description | default: site.github.project_tagline }}<span style="font-size: 14px;">&nbsp;</span></h2>
                   </td>
                 </tr>
