@@ -1,0 +1,65 @@
+/**
+ * @file
+ * @project 644
+ * @package sftheme
+ * @site app1
+ */
+
+a:link {
+	color:#0278d3;
+}
+a:visited {
+	color:#778ea0;
+}
+a:hover {
+	color:#00baff;
+}
+.sf_navigation ul li a {
+	color:CornflowerBlue;
+	/*color:#0278d3;
+  background-color:black;*/
+  font-size: 1.2em;
+}
+.sf_navigation ul li a:visited {
+	/*color:#778ea0;*/
+	color:CornflowerBlue;
+}
+.sf_navigation ul li a:hover {
+	color:#00baff;
+}
+
+/** 
+ * -------------------------------
+ * @section DBNow
+ * -------------------------------
+ */
+
+.Data_Central_color7 {
+	background-color:#0266b3;
+	color:#fff;
+}
+
+.Data_Central_color1 {
+	background-color:#0278d3;
+	color:#fff;
+}
+
+.Data_Central_color2 {
+	background-color:#d2d2d2;
+}
+
+.Data_Central_color3 {
+	background-color:#e0e0e0;
+}
+
+.Data_Central_color6 {
+	background-color:#f0f0f0;
+}
+
+.Data_Central_color4 {
+	background-color:#ffffff;
+}
+
+.Data_Central_color5 {
+	border-color:#f0f0f0;
+}
