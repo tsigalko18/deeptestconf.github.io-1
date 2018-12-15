@@ -261,6 +261,7 @@ h1:after,
 	margin:0;
 	text-transform:uppercase;
 	text-align:left;
+	color:#FF5733;
 }
 
 .sf_content:after {
@@ -278,6 +279,7 @@ h1:after,
 .sf_content h21 {
 	font-size:16px;
 	/*color:#990033;*/  
+	color:#FF5733;
 	font-family:Garamond, "Palatino Linotype", "Book Antiqua", Palatino, FreeSerif, serif;
 	font-weight:bold;
 	line-height:1.4;
