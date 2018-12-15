@@ -5,9 +5,9 @@ document.write("<div class=\"sf_header_wrapper\"> \
      	    <table cellpadding=\"0\" cellspacing=\"0\" border=\"0\" style=\"width: 100%;\">\
               <tbody>\
               <tr>\
-		        <td rowspan=\"3\">\
-                    <img alt=\"\" src=\"images/header.png\" width=\"100%\" style=\"border-width: 0px; border-style: solid;\">\
-                </td>\
+		        <td>\
+                    <img alt=\"\" src=\"images/header.png\" width=\"100%\" align=\"middle\" style=\"border-width: 0px; border-style: solid;\">\
+            </td>\
 	          </tr>     \
               </tbody>\
             </table>\
@@ -19,10 +19,10 @@ document.write("<div class=\"sf_header_wrapper\"> \
        <div class=\"widget_content\">\
        <div style=\"display:block;\">\
          <ul id=\"Nav1\" class=\"nav\">\
-          <li class=\"active-nav sf_first_nav_item\"><a href=\"./index.html\" target=\"_self\" style=\"color:#373435\" onclick=\"\">Home</a></li>\
-          <li class=\" sf_last_nav_item\"><a href=\"./Organization.html\" target=\"_self\" style=\"color:#373435\" onclick=\"\">Organization</a></li>\
-          <li class=\" sf_last_nav_item\"><a href=\"./Program.html\" target=\"_self\" style=\"color:#373435\" onclick=\"\">Program</a></li>\
-          <li class=\" sf_last_nav_item\"><a href=\"./Venue.html\" target=\"_self\" style=\"color:#373435\" onclick=\"\">Venue</a></li>\
+          <li class=\"active-nav sf_first_nav_item\"><a href=\"./index.html\" target=\"_self\"  onclick=\"\">Home</a></li>\
+          <li class=\" sf_last_nav_item\"><a href=\"#Call\" target=\"_self\"  onclick=\"\">Call for Submission</a></li>\
+          <li class=\" sf_last_nav_item\"><a href=\"#Organizers\" target=\"_self\"  onclick=\"\">Organizers</a></li>\
+          <li class=\" sf_last_nav_item\"><a href=\"#Program\" target=\"_self\"  onclick=\"\">Program</a></li>\
          </ul>\
         </div>\
         </div>\
