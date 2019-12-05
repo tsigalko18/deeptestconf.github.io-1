@@ -6,7 +6,7 @@ document.write("<div class=\"sf_header_wrapper\"> \
               <tbody>\
               <tr>\
 		        <td>\
-                    <img alt=\"\" src=\"images/header.png\" width=\"100%\" align=\"middle\" style=\"border-width: 0px; border-style: solid;\">\
+                    <img alt=\"\" src=\"images/header-seoul.jpeg\" width=\"100%\" align=\"middle\" style=\"border-width: 0px; border-style: solid;\">\
             </td>\
 	          </tr>     \
               </tbody>\
@@ -20,7 +20,7 @@ document.write("<div class=\"sf_header_wrapper\"> \
        <div style=\"display:block;\">\
          <ul id=\"Nav1\" class=\"nav\">\
           <li class=\"active-nav sf_first_nav_item\"><a href=\"./index.html\" target=\"_self\"  onclick=\"\">Home</a></li>\
-          <li class=\" sf_last_nav_item\"><a href=\"#Program\" target=\"_self\"  onclick=\"\">Program</a></li>\
+          <!--<li class=\" sf_last_nav_item\"><a href=\"#Program\" target=\"_self\"  onclick=\"\">Program</a></li>-->\
           <li class=\" sf_last_nav_item\"><a href=\"#Organizers\" target=\"_self\"  onclick=\"\">Organizers</a></li>\
          </ul>\
         </div>\
