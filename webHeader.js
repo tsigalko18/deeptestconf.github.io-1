@@ -6,7 +6,7 @@ document.write("<div class=\"sf_header_wrapper\"> \
               <tbody>\
               <tr>\
 		        <td>\
-                    <img alt=\"\" src=\"images/header-seoul.jpeg\" width=\"100%\" align=\"middle\" style=\"border-width: 0px; border-style: solid;\">\
+                    <img alt=\"\" src=\"images/header.jpeg\" width=\"100%\" align=\"middle\" style=\"border-width: 0px; border-style: solid;\">\
             </td>\
 	          </tr>     \
               </tbody>\
