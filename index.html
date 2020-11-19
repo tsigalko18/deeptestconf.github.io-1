@@ -39,27 +39,22 @@
 
 <h2>Workshop Theme</h2>
 
-<p>Software development is going through a paradigm shift, where decision making is increasingly shifting from hand-coded program logic to Deep Learning (DL). Popular applications in Speech Processing, Image Recognition, Robotics, use Deep Learning as their core components. DL is also widely adopted in safety-critical systems like autonomous cars, medical diagnosis, and aircraft collision avoidance systems.
-Thus, it has become crucial to rigorously test DL applications with realistic corner cases to ensure high reliability.
-Due to its effectiveness to learn from historical data, DL is also being applied for devising novel program analysis and software testing techniques related to malware detection, fuzz testing, bug-finding, and type-checking.
-Therefore, testing DL-based applications and DL-based testing techniques are emerging and important Software Engineering topics.
-
-Modern society increasingly relies on Artificial Intelligence (AI), with Deep Learning (DL) being the flagship approach to develop safety-critical systems like autonomous cars, medical diagnosis, and aircraft collision avoidance systems. Software development is also going through a paradigm shift because decision making is increasingly shifting from hand-coded program logic to DL components that take decisions based on a learning procedure. 
+<p>
+Machine Learning (ML) is widely adopted in modern software systems, also in safety-critical domains such as autonomous cars, medical diagnosis, and aircraft collision avoidance systems. Thus, it is crucial to rigorously test such applications to ensure high reliability and dependability. However, standard notions of software quality and reliability become unusable when considering ML systems, due to their non-deterministic nature and the lack of a transparent understanding of the models' semantics. ML is also expected to revolutionize software development. Indeed, ML is being applied for devising novel program analysis and software testing techniques related to malware detection, fuzzy testing, bug-finding, and type-checking. 
 </p>
 
 <p>
-Such AI systems must meet quality requirements. However, standard notions of software quality and reliability become unusable due to their non-deterministic nature, reuse of high-quality implementations of AI algorithms, and lack of understanding of the models' semantics.
-On the one hand, it has become crucial to rigorously test AI applications with realistic corner cases to ensure high reliability. On the other hand, the broad deployment of AI software in networked systems inevitably exposes AI software to attacks. While classical security vulnerabilities are relevant, AI techniques have additional weaknesses other than classical security vulnerabilities, some already known (e.g., sensitivity to training data manipulation), and some yet to be discovered. Hence, there is a need for research as well as practical solutions to make AI systems more secure.
+DeepTest is an interdisciplinary workshop targeting research at the intersection of SE and ML. The purpose is twofold: 
 
-Moreover, due to its effectiveness to learn from historical data, DL is also being applied for devising novel program analysis and software testing techniques related to malware detection, fuzz testing, bug-finding, and type-checking. Therefore, testing DL-based applications and DL-based testing techniques are emerging as important Software Engineering topics.
+<ul style="list-style-type: square; padding-left: .4em;">
+  <li>Investigate <em>how to ensure the quality of ML-based applications</em></li>
+  <li>Investigate <em>the use of ML to support software engineering tasks</em></li>
+</ul>
 </p>
 
 <p>
-DeepTest is an interdisciplinary workshop targeting research at the intersection of SE and AI, with a focus on DL. The workshop will further combine academia and industry in a quest for well-founded practical solutions. The aim of the workshop is to bring together an international group of researchers and practitioners with both AI, Testing, and Verification backgrounds to come to discuss their research, share datasets, and generally help the field build momentum. The workshop will consist of invited talks, presentations based on research paper submissions, and one or more panel discussions, where all participants are invited to share their insights and ideas. 
+The workshop will combine academia and industry in a quest for well-founded practical solutions. The aim is to bring together an international group of researchers and practitioners with both ML and SE backgrounds to come to discuss their research, share datasets, and generally help the field to build momentum. The workshop will consist of invited talks, presentations based on research paper submissions, and one or more panel discussions, where all participants are invited to share their insights and ideas.
 </p>
-
-<p>The workshop will consist of invited talks, presentations based on abstract submissions, and a panel discussion, where all participants are invited to share their insights and ideas.
-The aim of the workshop is to bring together an international group of researchers with both Machine Learning, Testing, and Verification backgrounds to come  discuss their research, share datasets, and generally help the field build momentum.</p>
 
 <nav>
   <h21> Important Dates (AoE): </h21>
@@ -71,17 +66,20 @@ The aim of the workshop is to bring together an international group of researche
       <ul style="list-style-type: square; padding-left: .4em;">
       
       <li>
-      <p><span style="font-weight: 500;">Submission: January 12, 2021</font></span></p>
+      <p><span style="font-weight: 500;">Submission: January 12, 2021</code></span></p>
       </li>
       
       <li>
       <p><span style="font-weight: 500;">Notification: February 22, 2021&nbsp;</span></p>
       </li>
       <li>
-      <p><span style="font-weight: 400;">Workshop: May 12, 2021</span></p>
+      <p><span style="font-weight: 400;">Camera Ready: Mar 12, 2021</span></p>
       </li>
 
       </ul>
+
+      <h21> Submission Link: </h21>
+      <p><a href=" https://easychair.org/conferences/?conf=deeptest2021" target="_blank" rel="noopener"> https://easychair.org/conferences/?conf=deeptest2021</a></p>
 
       <a class="twitter-timeline" href="https://twitter.com/DeepTestConf?ref_src=twsrc%5Etfw" data-chrome="nofooter noborders" data-tweet-limit="5" data-aria-polite="assertive">Tweets by DeepTestConf</a>
       <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
@@ -98,69 +96,56 @@ The aim of the workshop is to bring together an international group of researche
 
   <article>
     <p>
+      All submissions must conform to the ICSE 2021 formatting instructions. All submissions must be in PDF. The page limit is strict. Submissions must conform to the IEEE formatting instructions <a href="https://www.ieee.org/conferences/publishing/templates.html">IEEE Conference Proceedings Formatting Guidelines</a> (title in 24pt font and full text in 10pt type, LaTeX users must use <code>\documentclass[10pt,conference]{IEEEtran}</code> without including the <code>compsoc</code> or <code>compsocconf</code> options). DeepTest 2021 will employ a double-blind review process. Thus, no submission may reveal its authors’ identities. The authors must make every effort to honor the double-blind review process. In particular, the authors’ names must be omitted from the submission and references to their prior work should be in the third person. 
+    </p>
+
+    <p>
     We accept two types of submissions:
 
     <ul>
-      <li><strong>full research papers</strong> up to 8-page papers describing describing original and unpublished results related to the workshop topics. 
-      <li><strong>short papers</strong> up to 4-page papers describing both preliminary work, new insights in previous work, or demonstrations of testing-related tools and prototypes.
+      <li><strong>full research papers</strong> up to 8-page papers describing describing original and unpublished results related to the workshop topics. Two more pages containing only references are permitted.
+      <li><strong>short papers</strong> up to 4-page papers describing both preliminary work, new insights in previous work, or demonstrations of testing-related tools and prototypes. Two more pages containing only references are permitted.
     </ul>
 
     Relevant topics include, but are not limited to:
 
-    <ul>
-      <li>Quality</li>
-        <ul>
-          <li>Quality implication of AI algorithms on large-scale software systems</li>
-          <li>Application of classical statistics to AI systems quality</li>
+    <ul tyle="list-style-type: square; padding-left: .4em;">
+      <li><b>Quality</b></li>
+        <ul style="padding-left: .4em;">
+          <li>Quality implication of ML algorithms on large-scale software systems</li>
+          <li>Application of classical statistics to ML systems quality</li>
           <li>Training and payload data quality</li>
           <li>Correctness of data abstraction, data trust</li>
-          <li>High-quality benchmarks for evaluating DL approaches</li>
+          <li>High-quality benchmarks for evaluating ML approaches</li>
         </ul>
-      <li>Testing and Verification
-        <ul>
-          <li>Test data synthesis for testing AI systems</li>
+      <li><b>Testing and Verification</b></li>
+        <ul style="padding-left: .4em;">
+          <li>Test data synthesis for testing ML systems</li>
           <li>White-box and black-box testing strategies</li>
-          <li>AI models for testing programs</li>
+          <li>ML models for testing programs</li>
           <li>Adversarial machine learning and adversary based learning</li>
           <li>Test coverage</li>
+          <li>Vulnerability, sensitivity, and attacks against ML</li>
           <li>Metamorphic testing as software quality assurance</li>
-          <li>New abstraction techniques for verification of AI systems</li>
-          <li>AI techniques for software verification</li>
-          <li>Dev-ops for AI</li>
-          <li>New approaches to uncertainty measures and estimation</li>
+          <li>New abstraction techniques for verification of ML systems</li>
+          <li>ML techniques for software verification</li>
+          <li>Dev-ops for ML</li>
         </ul>
       </li>
-      <li>Fault Localization, Debugging, and Repairing</li>
-        <ul>
-          <li>Quality Metrics for AI systems, e.g., Correctness, Accuracy, Fairness, Robustness, Explainability</li>
+      <li><b>Fault Localization, Debugging, and Repairing</b></li>
+        <ul style="padding-left: .4em;">
+          <li>Quality Metrics for ML systems, e.g., Correctness, Accuracy, Fairness, Robustness, Explainability</li>
           <li>Sensitivity to data distribution diversity and distribution drift</li>
           <li>Failure explanation and automated debugging techniques</li>
-          <li>Run-time monitoring</li>
-          <li>Fault Localization and Anomaly Detection</li>
+          <li>Runtime monitoring</li>
+          <li>Fault Localization and anomaly detection</li>
           <li>Model repairing</li>
           <li>The effect of labeling costs on solution quality (semi-supervised learning)</li>
-          <li>DL for fault prediction, localization, and repair</li>
-          <li>DL to aid program comprehension, program transformation, and program generation</li>
-        </ul>
-      <li>Security</li>
-        <ul>
-          <li>Vulnerability, sensitivity, and attacks against AI</li>
-          <li>Relations between bugs and vulnerabilities</li>
-          <li>Security in DL systems</li>
-        </ul>
-      <li>Others</li>
-        <ul>
-            <li>Use of DL for analyzing natural language-like artifacts such as code, or user reviews</li>
-            <li>DL-aided software development approaches</li>
-            <li>Surveys and case studies using DL technology</li>
+          <li>ML for fault prediction, localization, and repair</li>
+          <li>ML to aid program comprehension, program transformation, and program generation</li>
         </ul>
     </ul>
 
-      <strong>Note:</strong> Although the main focus is on deep learning and testing, we encourage submissions that are related more broadly to machine learning and software engineering, and the relationship between the two.
-    </p>
-
-    Submissions should be in ACM Master two-column format (<a href="https://www.acm.org/publications/proceedings-template" target="_blank" rel="noopener">https://www.acm.org/publications/proceedings-template</a>).
-    Accepted contributions will be included in the proceedings in the ACM Digital Library.
     </p>
 
     <p>
@@ -170,7 +155,7 @@ The aim of the workshop is to bring together an international group of researche
     
   <article>
 
-
+`<!--
     <ul style="list-style-type: square; padding-left: .4em;">
       <li>Markus Borg  (RISE) </li>
       <li>Lei Ma  (Kyushu University) </li>
@@ -186,19 +171,15 @@ The aim of the workshop is to bring together an international group of researche
       <li>Xiaoning DU (Nanyang Technological University) </li>
       <li>Adji Bousso Dieng (Princeton CS) </li>
       <li>Christian Kästner (Carnegie Mellon University) </li>
-      <li>Miltos Allamanis  (Microsoft Research) </li>
       <li>Michael Pradel  (University of Stuttgart) </li>
-      <li>Vincent Hellendoorn (University of California at Davis, USA) </li>
       <li>Paolo Napoletano  (University of Milano-Bicocca) </li>
       <li>Karthik Pattabiraman  (UBC)</li>
       <li>Hridesh Rajan (Iowa State)</li>
+      
       <hr>
-      <li>Eitan Farchi, IBM Research Haifa, Israel 
-      <li>Onn Shehory, Bar Ilan University, Israel 
-      <li>Guy Barash Western Digital Corporation, Israel
+
       <li>Maria Spichkova, RMIT, Australia 
       <li>Sailik Sengupta, Arizona State University, USA 
-      <li>Oded Margalit, IBM Cyber Security Center of Excellence (CCoE), Israel 
       <li>Orna Raz, IBM Research Haifa, Israel
       <li>Jan Olaf Blech, RMIT, Australia
       <li>Peter Santhanam, IBM Research NY, USA
@@ -208,6 +189,13 @@ The aim of the workshop is to bring together an international group of researche
       <li>Samuel Marchal, Aalto University, Finland
     </ul>
  
+       <li>Oded Margalit, IBM Cyber Security Center of Excellence (CCoE), Israel 
+       <li>Vincent Hellendoorn (University of California at Davis, USA) </li>
+       <li>Eitan Farchi, IBM Research Haifa, Israel 
+      <li>Onn Shehory, Bar Ilan University, Israel 
+      <li>Guy Barash Western Digital Corporation, Israel
+       <li>Miltos Allamanis  (Microsoft Research) </li>
+  -->
 
   </article>
       
