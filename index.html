@@ -43,19 +43,19 @@
 Thus, it has become crucial to rigorously test DL applications with realistic corner cases to ensure high reliability.
 Due to its effectiveness to learn from historical data, DL is also being applied for devising novel program analysis and software testing techniques related to malware detection, fuzz testing, bug-finding, and type-checking.
 Therefore, testing DL-based applications and DL-based testing techniques are emerging and important Software Engineering topics.
+
+Modern society increasingly relies on Artificial Intelligence (AI), with Deep Learning (DL) being the flagship approach to develop safety-critical systems like autonomous cars, medical diagnosis, and aircraft collision avoidance systems. Software development is also going through a paradigm shift because decision making is increasingly shifting from hand-coded program logic to DL components that take decisions based on a learning procedure. 
 </p>
 
-<p>DeepTest is a workshop targeting research at the intersection of testing and deep learning. This interdisciplinary workshop will explore issues related to:
+<p>
+Such AI systems must meet quality requirements. However, standard notions of software quality and reliability become unusable due to their non-deterministic nature, reuse of high-quality implementations of AI algorithms, and lack of understanding of the models' semantics.
+On the one hand, it has become crucial to rigorously test AI applications with realistic corner cases to ensure high reliability. On the other hand, the broad deployment of AI software in networked systems inevitably exposes AI software to attacks. While classical security vulnerabilities are relevant, AI techniques have additional weaknesses other than classical security vulnerabilities, some already known (e.g., sensitivity to training data manipulation), and some yet to be discovered. Hence, there is a need for research as well as practical solutions to make AI systems more secure.
 
-<ol style="list-style-type: lower-roman;">
-<li>
-<p><span style="font-weight: 400;">Deep learning applied to software testing.</span></p>
-</li>
-<li>
-<p><span style="font-weight: 400;">Testing applied to Deep Learning applications.&nbsp;</span></p>
-</li>
-</ol>
+Moreover, due to its effectiveness to learn from historical data, DL is also being applied for devising novel program analysis and software testing techniques related to malware detection, fuzz testing, bug-finding, and type-checking. Therefore, testing DL-based applications and DL-based testing techniques are emerging as important Software Engineering topics.
+</p>
 
+<p>
+DeepTest is an interdisciplinary workshop targeting research at the intersection of SE and AI, with a focus on DL. The workshop will further combine academia and industry in a quest for well-founded practical solutions. The aim of the workshop is to bring together an international group of researchers and practitioners with both AI, Testing, and Verification backgrounds to come to discuss their research, share datasets, and generally help the field build momentum. The workshop will consist of invited talks, presentations based on research paper submissions, and one or more panel discussions, where all participants are invited to share their insights and ideas. 
 </p>
 
 <p>The workshop will consist of invited talks, presentations based on abstract submissions, and a panel discussion, where all participants are invited to share their insights and ideas.
@@ -100,32 +100,63 @@ The aim of the workshop is to bring together an international group of researche
     <p>
     We accept two types of submissions:
 
-  <ul>
+    <ul>
       <li><strong>full research papers</strong> up to 8-page papers describing describing original and unpublished results related to the workshop topics. 
       <li><strong>short papers</strong> up to 4-page papers describing both preliminary work, new insights in previous work, or demonstrations of testing-related tools and prototypes.
     </ul>
 
     Relevant topics include, but are not limited to:
 
-      <ul>
-        <li>High-quality benchmarks for evaluating DL approaches</li>
-        <li>Surveys and case studies using DL technology</li>
-        <li>Techniques to aid interpretable DL techniques</li>
-        <li>Techniques to improve designing reliable models</li>
-        <li>DL-aided software development approaches</li>
-        <li>DL for fault prediction, localization and repair</li>
-        <li>Metamorphic testing as software quality assurance</li>
-        <li>Security in DL systems</li>
-        <li>Fault Localization and Anomaly Detection</li>
-        <li>Use of DL for analyzing natural language-like artifacts such as code, or user reviews</li>
-        <li>DL techniques to support automated software testing</li>
-        <li>Formal verification of DL-based systems</li>
-        <li>DL to aid program comprehension, program transformation, and program generation</li>
-        <li>Safety and security of DL based systems</li>
-        <li>New approaches to uncertainty measures and estimation</li>
-      </ul>
+    <ul>
+      <li>Quality</li>
+        <ul>
+          <li>Quality implication of AI algorithms on large-scale software systems</li>
+          <li>Application of classical statistics to AI systems quality</li>
+          <li>Training and payload data quality</li>
+          <li>Correctness of data abstraction, data trust</li>
+          <li>High-quality benchmarks for evaluating DL approaches</li>
+        </ul>
+      <li>Testing and Verification
+        <ul>
+          <li>Test data synthesis for testing AI systems</li>
+          <li>White-box and black-box testing strategies</li>
+          <li>AI models for testing programs</li>
+          <li>Adversarial machine learning and adversary based learning</li>
+          <li>Test coverage</li>
+          <li>Metamorphic testing as software quality assurance</li>
+          <li>New abstraction techniques for verification of AI systems</li>
+          <li>AI techniques for software verification</li>
+          <li>Dev-ops for AI</li>
+          <li>New approaches to uncertainty measures and estimation</li>
+        </ul>
+      </li>
+      <li>Fault Localization, Debugging, and Repairing</li>
+        <ul>
+          <li>Quality Metrics for AI systems, e.g., Correctness, Accuracy, Fairness, Robustness, Explainability</li>
+          <li>Sensitivity to data distribution diversity and distribution drift</li>
+          <li>Failure explanation and automated debugging techniques</li>
+          <li>Run-time monitoring</li>
+          <li>Fault Localization and Anomaly Detection</li>
+          <li>Model repairing</li>
+          <li>The effect of labeling costs on solution quality (semi-supervised learning)</li>
+          <li>DL for fault prediction, localization, and repair</li>
+          <li>DL to aid program comprehension, program transformation, and program generation</li>
+        </ul>
+      <li>Security</li>
+        <ul>
+          <li>Vulnerability, sensitivity, and attacks against AI</li>
+          <li>Relations between bugs and vulnerabilities</li>
+          <li>Security in DL systems</li>
+        </ul>
+      <li>Others</li>
+        <ul>
+            <li>Use of DL for analyzing natural language-like artifacts such as code, or user reviews</li>
+            <li>DL-aided software development approaches</li>
+            <li>Surveys and case studies using DL technology</li>
+        </ul>
+    </ul>
 
-      <strong>Note:</strong> Although the main focus is on deep learning, we encourage submissions that are related more broadly to machine learning and testing and the relationship between the two.
+      <strong>Note:</strong> Although the main focus is on deep learning and testing, we encourage submissions that are related more broadly to machine learning and software engineering, and the relationship between the two.
     </p>
 
     Submissions should be in ACM Master two-column format (<a href="https://www.acm.org/publications/proceedings-template" target="_blank" rel="noopener">https://www.acm.org/publications/proceedings-template</a>).
@@ -136,7 +167,7 @@ The aim of the workshop is to bring together an international group of researche
     If you have any questions, or wonder whether your submission is in scope, please do not hesitate to contact the organizers.</p>
 
   </article>
-    <!--
+    
   <article>
 
 
@@ -161,11 +192,25 @@ The aim of the workshop is to bring together an international group of researche
       <li>Paolo Napoletano  (University of Milano-Bicocca) </li>
       <li>Karthik Pattabiraman  (UBC)</li>
       <li>Hridesh Rajan (Iowa State)</li>
+      <hr>
+      <li>Eitan Farchi, IBM Research Haifa, Israel 
+      <li>Onn Shehory, Bar Ilan University, Israel 
+      <li>Guy Barash Western Digital Corporation, Israel
+      <li>Maria Spichkova, RMIT, Australia 
+      <li>Sailik Sengupta, Arizona State University, USA 
+      <li>Oded Margalit, IBM Cyber Security Center of Excellence (CCoE), Israel 
+      <li>Orna Raz, IBM Research Haifa, Israel
+      <li>Jan Olaf Blech, RMIT, Australia
+      <li>Peter Santhanam, IBM Research NY, USA
+      <li>Lei Cui, Beihang University, China
+      <li>Victor Pankratius, MIT, USA
+      <li>Pratik Vaishnavi, Stony Brook University, USA
+      <li>Samuel Marchal, Aalto University, Finland
     </ul>
  
 
   </article>
-     -->
+      
 </section>
 
 <h2><a id="Organizers"></a>Program Committee (TBA)</h2>
